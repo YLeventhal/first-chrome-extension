@@ -1,6 +1,9 @@
 {
-    "name": "Getting Started Example",
-    "description": "Build an Extension!",
+    "name": "My first Extension",
+    "description": "Have a go at it",
     "version": "1.0",
-    "manifest_version": 3
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "popup.html"
+    }
 }
