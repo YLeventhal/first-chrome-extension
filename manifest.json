@@ -4,6 +4,10 @@
     "version": "1.0",
     "manifest_version": 3,
     "action": {
+        "default_icon": {
+            "16": "images/bitcoin-blue.png"
+        },
+        "default_title": "your crypto news site aggregator",
         "default_popup": "popup.html"
     }
 }
