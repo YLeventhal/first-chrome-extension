@@ -9,5 +9,9 @@
         },
         "default_title": "your crypto news site aggregator",
         "default_popup": "popup.html"
+    },
+    "permissions": ["activeTab"],
+    "background": {
+        "service_worker": "background.js"
     }
 }
